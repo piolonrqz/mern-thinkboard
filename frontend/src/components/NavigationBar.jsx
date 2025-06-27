@@ -9,7 +9,7 @@ const NavigationBar = () => {
         <div className='flex items-center justify-between'>
         <h1 className='font-mono text-3xl font-bold text-primary tracking-light'>Thinkboard</h1>
         <div className='flex items-center gap-4'>
-            <Link to="/create" className='btn btn-primary'>
+            <Link to={"/create"} className='btn btn-primary'>
             <PlusIcon className='size 5'/> 
             <span>New Note</span>
             </Link>
